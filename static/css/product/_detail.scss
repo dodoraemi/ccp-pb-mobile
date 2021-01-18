@@ -354,7 +354,7 @@
   }
   &.type-address {
     .wrap-form {
-      margin-top: 1.5rem;
+      margin-top: 2rem;
     }
     .form-text-area {
       textarea {
@@ -427,6 +427,7 @@
   .row-desc {
     margin: 1.5rem 0 0;
     line-height: 1.6;
+    color: $fc1;
     @include clamp(2);
 
     & + .btn-more {
@@ -846,6 +847,7 @@
   padding-top: 4rem;
   .txt-row {
     margin-top: 2.5rem;
+    padding: 0 1rem;
     color: $fc1;
   }
 

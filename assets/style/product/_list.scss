@@ -973,6 +973,7 @@
   }
 
   &.charge {
+    align-items: center;
     dd {
       span {
         margin-right: 0.2rem;
@@ -994,6 +995,12 @@
       strong {
         font-size: 1.5rem;
       }
+    }
+  }
+
+  dd {
+    em {
+      margin-right: 0.2rem;
     }
   }
 
@@ -1654,6 +1661,7 @@
     .top {
       display: flex;
       align-items: center;
+
       .title {
         font-size: 1.5rem;
         font-weight: 700;
@@ -1661,7 +1669,6 @@
         &.blue {
           color: $pc3;
         }
-
         &.green {
           color: $pc5;
         }
@@ -1671,6 +1678,11 @@
         margin-top: -0.2rem;
         margin-left: auto;
       }
+
+      .btn-arrow:after {
+        margin-left: 0;
+      }
+
       .date {
         margin-left: auto;
         font-size: 1rem;
@@ -2285,6 +2297,19 @@
         left: 4rem;
         width: calc(100% - 8rem);
       }
+
+      &.type1 {
+        padding: 6rem 2rem;
+
+        .img + .img {
+          margin-top: 2rem;
+        }
+
+        &:after {
+          left: 2rem;
+          width: calc(100% - 4rem);
+        }
+      }
     }
 
     .title {
@@ -2320,7 +2345,7 @@
       }
     }
     .tbl-area {
-      margin: 3rem -2rem 0;
+      margin: 3rem 0 0;
       color: $fc1;
 
       .tbl {
@@ -2345,6 +2370,7 @@
     margin-top: 3rem;
     display: flex;
     align-items: center;
+    justify-content: center;
 
     div {
       position: relative;
@@ -2458,6 +2484,10 @@
 
   &.type1 {
     text-align: center;
+    .title,
+    .txt {
+      padding: 0;
+    }
   }
 
   .title {
