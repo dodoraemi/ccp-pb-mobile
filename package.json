@@ -17,6 +17,7 @@
   "bugs": {
     "url": "https://github.com/mz-suk/ccp-pb-mobile/issues"
   },
+  "scripts": { "gulp": "gulp" },
   "homepage": "https://github.com/mz-suk/ccp-pb-mobile#readme",
   "dependencies": {
     "browser-sync": "^2.26.12",
